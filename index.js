@@ -18,8 +18,8 @@ const titleCased = () => {
 const newTutorials = tutorials.map(
   e => e.split(' ').map(
     e => e[0].toUpperCase() + e.slice(1)
-    )
-  ).join(' ')
+    ).join(' ')
+  )
 
 
 
