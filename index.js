@@ -15,7 +15,7 @@ const titleCased = () => {
   return tutorials
 }
 
-const newTutorials = tutorials.map(e => e.split(' '))
+const newTutorials = tutorials.map(e => e.split(' ').toUpperCase())
 console.log(newTutorials)
 
 
