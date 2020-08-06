@@ -15,7 +15,8 @@ const titleCased = () => {
   return tutorials
 }
 
-
+const newTutorials = tutorials.map(e => e.split(' '))
+console.log(newTutorials)
 
 
 
