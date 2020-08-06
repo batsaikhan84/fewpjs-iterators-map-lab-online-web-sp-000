@@ -15,4 +15,4 @@ const titleCased = () => {
   return tutorials
 }
 
-console.log(titleCased)
+
